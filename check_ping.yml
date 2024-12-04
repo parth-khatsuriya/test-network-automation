@@ -1,0 +1,9 @@
+--- # ping Cisco Devices
+- name: Ping Cisco Devices
+  hosts: 10.230.163.6
+  user: a4245
+  connection: ssh
+  gather_facts: no
+  tasks:
+    - name: Ping all the hosts
+      ping: 
