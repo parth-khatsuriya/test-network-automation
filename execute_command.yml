@@ -7,5 +7,5 @@
     - name : Execute 'sh run' command
       ios_command:
         commands: show running-config
-	provider: "{{cli}}"
+	provider: "{{ cli }}"
       register: config_output
