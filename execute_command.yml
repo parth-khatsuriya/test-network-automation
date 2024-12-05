@@ -1,0 +1,11 @@
+- name: Execute Command
+  hosts: 10.230.163.6
+  become: yes
+  connection: network_cli
+  
+  tasks:
+    - name : Execute 'sh run' command
+	  ios_command:
+	    commands: show running-config
+		provider: "{{cli}}"
+	  register: config_output
