@@ -1,0 +1,5 @@
+[ios]
+10.230.163.6
+
+[ios:vars]
+ansible_network_os=ios
