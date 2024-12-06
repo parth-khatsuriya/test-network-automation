@@ -3,3 +3,4 @@
 
 [ios:vars]
 ansible_network_os=ios
+ansible_net_hostname=hostname
